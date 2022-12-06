@@ -1,0 +1,25 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+.footer-container__navigation {
+    display: flex;
+    justify-content: space-between;
+    &__navList {
+        display: flex;
+        flex-direction: column;
+    }
+    & ul {
+        @include listItems;
+    }
+    & li {
+        margin: 5px;
+        margin-bottom: 0;
+        font-size: 0.85rem;
+        color: $color-font-primary;
+    }
+    &__copyright p {
+        font-size: 0.6rem;
+        margin-left: 45px;
+        margin-top: 0;
+        color: $color-font-primary;
+    }
+}

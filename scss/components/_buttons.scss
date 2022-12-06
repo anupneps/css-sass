@@ -1,0 +1,17 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+.medium__banner {
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin: 10px;
+    padding: 2px 8px;
+    background-color: white;
+    color: black;
+}
+
+.banner__bg-color {
+    color: white;
+    background-color: $color-font-inverse;
+}
