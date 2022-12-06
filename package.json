@@ -1,0 +1,23 @@
+{
+    "name": "maido-webpage-clone",
+    "version": "1.0.0",
+    "description": "implementing scss design into webpage",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "sass --watch scss/styles.scss:compiled/style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anupneps/fs13-CSS-SASS.git"
+    },
+    "author": "anp",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anupneps/fs13-CSS-SASS/issues"
+    },
+    "homepage": "https://github.com/anupneps/fs13-CSS-SASS#readme",
+    "dependencies": {
+        "sass": "^1.56.1"
+    }
+}

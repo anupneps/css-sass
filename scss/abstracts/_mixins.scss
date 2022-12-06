@@ -1,0 +1,27 @@
+@mixin divCard {
+    display: flex;
+    height: 12.5em;
+    font-size: 19px;
+    padding: 1.25em;
+    padding-top: 3.75em;
+    position: relative;
+    line-height: 1.7em;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+@mixin listItems {
+    display: flex;
+    list-style: none;
+    margin-right: 0.5em;
+}
+
+@mixin small-grid($color) {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: $color;
+}
+
+@mixin medium-grid($color) {
+    @include small-grid($color);
+}

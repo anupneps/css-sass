@@ -1,0 +1,26 @@
+@import "../abstracts/mixins";
+@import "../abstracts/variables";
+.nav-bar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-color-primary;
+    &__title {
+        color: $color-font-primary;
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    &__navItems {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    & ul {
+        @include listItems;
+    }
+    & li {
+        margin: 10px;
+        font-size: 15px;
+        color: $color-font-primary;
+    }
+}
