@@ -45,3 +45,14 @@
 @mixin onHover {
     background-color: white;
 }
+
+@mixin displayFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@mixin leftMargin {
+    margin-left: 25px;
+}
