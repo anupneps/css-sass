@@ -19,8 +19,6 @@ This is a static webpage clone development project [link](https://preview.themef
 ## Project Structure
 
 | index.html
-│ package-lock.json
-│ package.json
 │ README.md
 │
 ├───compiled
@@ -40,7 +38,7 @@ This is a static webpage clone development project [link](https://preview.themef
 │ \_animation.scss
 │  
  ├───components
-│ banner.scss
+│ \_banner.scss
 │
 └───layout
 \_flex.scss
@@ -50,7 +48,7 @@ This is a static webpage clone development project [link](https://preview.themef
 
 ## Getting Started
 
-Clone the repository from github: git clone
+Clone the repository from github: git clone.
 To implement SCSS :
 
 - npm install scss
