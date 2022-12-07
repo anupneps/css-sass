@@ -40,4 +40,15 @@
         margin-top: 0;
         color: $color-font-primary;
     }
+    &__socialIcons {
+        display: flex;
+        justify-content: space-evenly;
+        & a {
+            margin: 10px;
+            color: $color-font-primary;
+        }
+        & a:hover {
+            color: orange;
+        }
+    }
 }
