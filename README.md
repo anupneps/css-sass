@@ -1,20 +1,56 @@
-# CSS/SASS , Grid , Flexbox Assignment
+# Introduction
 
-Refer to this [link](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705)(see 'Dark version') and create a similar webpage
+This is a static webpage clone development project [link](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705)('Dark version'). Multiple css styling has been applied in this page. Here is the completed version of project: [link](https://lambent-maamoul-607dbb.netlify.app/).
 
-## Requirements (max 4)
+## Table of Content
 
-1. Floating the HTML elements using Flexbox and Grid system
-2. Implementing basic animations as shown in the webpage (hover effect,
-active link styles, typing effect). You can modify the outlook of the effects
-3. Implement you codes, using the platform of your choice (For example, Github Pages), then rewrite README file.
+- Navigation
+- Section 1 : small and medium card grid
+- Section 2: big flex card
+- Section 3: small and medium card grid
+- Section 4: Animation and input box
+- Footer
 
-This assignment only requires 1 static page. No JavaScript needed.
-Font family and text content can be modified as your preferences.
-You can ignore the small buttons/tags/lables in each card. Only
-texts with some styles are enough.
+## Technologies
 
-## Bonus points (max 1)
+- HTML
+- SCSS
 
-1. Using SASS (either .sass or .scss) for styling
-2. Make use of variables, mixin, extend
+## Project Structure
+
+| index.html
+│ package-lock.json
+│ package.json
+│ README.md
+│
+├───compiled
+│ style.css
+│ style.css.map
+│
+├───node_modules
+│
+└───scss
+│ styles.scss
+│
+├───abstracts
+│ \_mixins.scss
+│ \_variables.scss
+│
+├───base
+│ \_animation.scss
+│  
+ ├───components
+│ banner.scss
+│
+└───layout
+\_flex.scss
+\_footer.scss
+\_main.scss
+\_navigation.scss
+
+## Getting Started
+
+Clone the repository from github: git clone
+To implement SCSS :
+
+- npm install scss
