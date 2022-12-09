@@ -93,8 +93,13 @@
         margin-bottom: 40px;
         margin-top: 20px;
     }
+    & input:focus {
+        outline: none;
+        caret-color: white;
+    }
     & input:hover {
         width: 300px;
+        transition: 1s ease-in-out;
     }
     & button {
         font-size: small;
